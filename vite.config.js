@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
 export default defineConfig({
-	publicPath:"/mapbox",
+	base:"/mapbox",
   plugins: [
     vue(),
   ],
